@@ -19,7 +19,7 @@ var configs = [{
 }]
 
 var final_words = [];
-/////////////////////////
+////////////////////////
 
   const number_length = (word_array, figure) => {
     let temp = word_array.filter((v, i, arr)=>{if (v.length === figure){return v}});
